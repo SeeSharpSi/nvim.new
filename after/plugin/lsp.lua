@@ -8,6 +8,7 @@ lspconfig.yamlls.setup {
 }
 lspconfig.pyright.setup {on_attach = on_attach,settings = {pyright = {autoImportCompletion = true,},python = {analysis = {autoSearchPaths = true,diagnosticMode = 'openFilesOnly',useLibraryCodeForTypes = true,typeCheckingMode = 'off'}}}}
 lspconfig.intelephense.setup{}
+lspconfig.tsserver.setup{}
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
